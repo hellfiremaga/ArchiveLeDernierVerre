@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkarchive_dernier_verre=self.webpackChunkarchive_dernier_verre||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/ArchiveLeDernierVerre/blog","blogTitle":"Blog","authorsListPath":"/ArchiveLeDernierVerre/blog/authors"}')}}]);
