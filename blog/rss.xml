@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Le Dernier Verre Blog</title>
-        <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog</link>
+        <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/</link>
         <description>Le Dernier Verre Blog</description>
         <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>fr</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/welcome</link>
-            <guid>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/welcome</guid>
+            <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/welcome/</link>
+            <guid>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/welcome/</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[{/ truncate /}]]></description>
             <content:encoded><![CDATA[
@@ -33,8 +33,8 @@
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/mdx-blog-post</link>
-            <guid>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/mdx-blog-post</guid>
+            <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/mdx-blog-post/</link>
+            <guid>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/mdx-blog-post/</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[{/ truncate /}]]></description>
             <content:encoded><![CDATA[
@@ -44,8 +44,8 @@
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
-            <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/long-blog-post</link>
-            <guid>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/long-blog-post</guid>
+            <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/long-blog-post/</link>
+            <guid>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/long-blog-post/</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
             <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -71,8 +71,8 @@
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/first-blog-post</link>
-            <guid>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/first-blog-post</guid>
+            <link>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/first-blog-post/</link>
+            <guid>https://hellfiremaga.github.io/ArchiveLeDernierVerre/blog/first-blog-post/</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[{/ truncate /}]]></description>
             <content:encoded><![CDATA[
