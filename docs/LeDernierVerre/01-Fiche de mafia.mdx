@@ -1,0 +1,617 @@
+---
+id: FicheDeMafia
+title: Fiche de mafia
+description: Fiche des mafias du serveur
+slug: /FicheDeMafia
+sidebar_label: Fiche de Mafia
+sidebar_position: 1
+toc_min_heading_level: 2
+toc_max_heading_level: 2
+---
+export const Actif = ({children}) => (
+  <span
+    style={{
+      fontWeight: "bold",
+    }}>
+    {children}
+  <br/></span>
+);
+
+export const Disparu = ({children}) => (
+  <span
+    style={{
+      fontStyle: "italic",
+    }}>
+    {children}
+  <br/></span>
+);
+
+export const Rouge = ({children}) => (
+  <span
+    style={{
+      color: "#b00",
+    }}>
+    {children}
+  </span>
+);
+
+export const Vert = ({children}) => (
+  <span
+    style={{
+      color: "#0b0",
+    }}>
+    {children}
+  </span>
+);
+
+export const Drapeau = ({source,titre}) => (
+  <img id="img_archive" src={source}  title={titre}  alt={titre}  width="400" />
+);
+
+export const DoubleDrapeau = ({source1,titre1,source2,titre2}) => (
+  <p class="alignCenter">
+    <img id="img_archive" src={source1} title={titre1} alt={titre1} width="400" style={{ display:"inline" }}/>
+    <img id="img_archive" src={source2} title={titre2} alt={titre2} width="400" style={{ display:"inline" }}/>
+  </p>
+);
+
+---
+
+## Aryamehr - Mafia iranienne
+
+<Drapeau titre="Drapeau d'Iran" source="/ArchiveLeDernierVerre/img/mafia/Iran.jpg" />
+
+Statut : <Vert>LIBRE</Vert>
+
+### Leaders
+
+<Disparu>Camille Reza 05/11/2022 - 05/12/2023</Disparu>
+
+### Membres
+
+<Disparu>Mehdi Mokhbér 06/12/2022 - 22/02/2023</Disparu>
+<Disparu>Astrea Hichtra 17/01/2023 - 13/05/2023</Disparu>
+<Disparu>Amélie Lacroix 30/01/2023 - 06/08/2023</Disparu>
+<Disparu>Kung Al-Maqdisi 08/03/2023 - 07/11/2023</Disparu>
+<Disparu>Igor Adisa 18/05/2023 - 27/07/2023</Disparu>
+<Disparu>Aida Obaid 04/06/2023 - 27/07/2023</Disparu>
+<Disparu>Wincenty Kowalczyk 05/06/2023 - 04/09/2023</Disparu>
+<Disparu>Ae-Cha Park ??/??/2023 - 06/08/2023</Disparu>
+<Disparu>Akono Lyriachi ??/??/2023 - 09/12/2023</Disparu>
+<Disparu>Arman Arshagouni 22/07/2023 - 26/11/2023</Disparu>
+<Disparu>Jonathan "Goupil" Marouès 01/08/2023 - 05/12/2023</Disparu>
+<Disparu>Kirov "SVTG-74" 27/08/2023 - 07/10/2023</Disparu>
+<Disparu>Zâhïr "Le Virtuose Écarlate" Al-Khaliban Ibn'Mardukaal 21/10/2023 - 11/01/2024</Disparu>
+<Disparu>Keri Sulaeman ??/09/2023 - 11/04/2024</Disparu>
+
+
+
+
+---
+
+## Baem Wang - Mafia coréenne
+
+<Drapeau titre="Drapeau de Corée" source="/ArchiveLeDernierVerre/img/mafia/Corée.png" />
+
+Statut : <Vert>actif</Vert>
+
+### Leaders
+
+<Actif>Yoo-jin Kim 07/08/2024 - Actif</Actif>
+
+### Membres
+
+<Actif>Tae-Hyun Song 07/08/2024 - Actif</Actif>
+<Actif>Eun-Mi Song 25/08/2024 - Actif</Actif>
+
+
+
+
+---
+
+## la Baraque à frites - Mafia belge
+
+<Drapeau titre="Drapeau belge" source="/ArchiveLeDernierVerre/img/mafia/Belgique.png" />
+
+Statut : <Vert>actif (PNJ)</Vert>
+
+### Leader
+
+### Membres
+
+
+
+---
+
+## Belaya Gvardiya - Mafia Biélorusse
+
+<Drapeau titre="Drapeau bielorusse" source="/ArchiveLeDernierVerre/img/mafia/Bielorussie.png" />
+
+Statut : <Vert>LIBRE</Vert>
+
+### Leader
+<Disparu>Victoria Ionisef 28/01/2024 - 20/02/2024</Disparu>
+<Actif>Natasha Papasha 20/02/2024 - Actif</Actif>
+
+### Membres
+<Disparu>Natasha Papasha 31/01/2024 - 20/02/2024</Disparu>
+
+
+
+
+---
+
+## Bratva - Mafia russe
+
+<Drapeau titre="Drapeau de Russie" source="/ArchiveLeDernierVerre/img/mafia/Russie.png" />
+
+Statut : <Vert>actif</Vert>
+
+### Leaders
+<Disparu>Anastasia Lesskov 29/01/2022 - 02/04/2022</Disparu>
+<Disparu>Ivan Drago 09/04/2022 - 04/05/2022</Disparu>
+<Disparu>Leïa Zelensky 11/06/2022 - 12/06/2022</Disparu>
+<Disparu>Arthur Luberlu 18/06/2022 - 25/06/2022</Disparu>
+<Disparu>Alexander Malyshev 18/04/2022 - 10/09/2022</Disparu>
+<Disparu>Aleksandr Karelin 17/09/2022 - 29/10/2022</Disparu>
+<Disparu>Irina Abalychev 09/11/2022 - 02/02/2023</Disparu>
+<Disparu>Kirov "SVTG-74" 26/03/2023 - 06/08/2023</Disparu>
+<Actif>William Dyers 02/09/2023 - Actif</Actif>
+
+### Membres
+
+<Disparu>Eon Kovalev 12/01/2022 - 25/01/2022</Disparu>
+<Disparu>Natalia Ulanov 30/01/2022 - 02/04/2022</Disparu>
+<Disparu>Ivan Volkianovitch 01/02/2022 - 30/04/2022</Disparu>
+<Disparu>Elena Korakov 17/04/2022 - 05/11/2022</Disparu>
+<Disparu>Anna Dmitroff 27/04/2022 - 02/07/2022</Disparu>
+<Disparu>Yuna Armagnac 26/06/2022 - 02/07/2022</Disparu>
+<Disparu>Micah Avandeïev 26/12/2022 - 29/12/2022</Disparu>
+<Disparu>Lupo Jones 06/01/2023 - 14/01/2023</Disparu>
+<Disparu>Solveigh 29/03/2023 - 11/04/2024</Disparu>
+<Disparu>Romulus Glazkov 06/04/2023 - 25/04/2023</Disparu>
+<Disparu>Alfonso 08/04/2023 - 19/10/2023</Disparu>
+<Disparu>Anna Clark 18/04/2023 - 13/06/2023</Disparu>
+<Disparu>Miriya Lù Kāng 12/05/2023 - 13/05/2023</Disparu>
+<Disparu>Ivick Vlodovsky 06/06/2023 - 09/06/2023</Disparu>
+<Actif>Nathan 02/09/2023 - Actif</Actif>
+<Disparu>Mélodie Mild 05/09/2023 - ??/??/2024</Disparu>
+<Disparu>Loralie Nanako 09/10/2023 - 07/03/2024</Disparu>
+<Disparu>Isran Hitchock 01/11/2023 - 13/03/2024</Disparu>
+<Disparu>Chou Nya 03/11/2023 - 11/04/2024</Disparu>
+<Actif>Karm Lombard 15/11/2023 - Actif</Actif>
+<Disparu>Némésis 30/11/2023 - 11/04/2024</Disparu>
+<Disparu>Ethel Hilde 07/12/2023 - 07/04/2024</Disparu>
+<Actif>Anastasia Volkova 07/06/2024 - Actif</Actif>
+<Actif>Kayano Cox ??/??/2024 - Actif</Actif>
+
+
+
+
+
+---
+
+## Cartel de Sinaloa - Mafia mexicaine
+
+<Drapeau titre="Drapeau du Mexique" source="/ArchiveLeDernierVerre/img/mafia/Mexique.png" />
+
+Statut : <Vert>LIBRE</Vert>
+
+### Leaders
+
+<Disparu>Kieta Moriko 13/11/2022 - 28/06/2023</Disparu>
+<Disparu>Miles Milann 27/12/2023 - 26/02/2024 puis 04/03/2024 - 24/06/2024</Disparu>
+
+### Membres
+
+<Disparu>Gabriella Lucifa 02/12/2022 - 06/01/2023</Disparu>
+<Disparu>Maïq Chupa 07/12/2022 - 01/02/2023</Disparu>
+<Disparu>César Varela 17/12/2022 - 02/04/2023</Disparu>
+<Disparu>Alyssa Winter 19/12/2022 - 02/04/2023</Disparu>
+<Disparu>Juan "Luchador" Morales 12/01/2022 - 22/01/2023</Disparu>
+<Disparu>Dante Lapi 21/01/2023 - 10/05/2023</Disparu>
+<Disparu>Elyna Flores 25/02/2023 - 16/05/2023</Disparu>
+<Disparu>Akono Lyriachi 13/02/2023 - ??/06/2023</Disparu>
+<Disparu>Calli Camrain 12/04/2023 - 28/04/2023</Disparu>
+<Disparu>Miguel Ramirez 27/04/2023 - 10/05/2023</Disparu>
+<Disparu>James Harisse ??/02/2024 - 04/04/2024</Disparu>
+
+
+
+
+---
+
+## Cosa nostra - Mafia sicilienne
+
+<DoubleDrapeau titre1="Drapeau d'Italie" source1="/ArchiveLeDernierVerre/img/mafia/Italie.png" titre2="Drapeau de Sicile" source2="/ArchiveLeDernierVerre/img/mafia/Sicile.jpg" />
+
+Statut : <Vert>LIBRE</Vert>
+
+### Leaders
+
+<Disparu>James Romano 09/02/2022 - 01/04/2022</Disparu>
+<Disparu>Leonardo Di Angelo 23/03/2022 - 02/04/2022</Disparu>
+<Disparu>Orlando Ewa 10/04/2022 - 13/04/2022</Disparu>
+<Disparu>Ayura Graff 21/05/2022 - 01/07/2022</Disparu>
+<Disparu>Andréa Castelli 15/07/2022 - 26/03/2023</Disparu>
+<Disparu>Andrea  Lombardo 16/05/2023 - 05/06/2023</Disparu>
+<Disparu>Anna Clark 13/06/2023 - 10/01/2024</Disparu>
+
+### Membres
+
+<Disparu>Diego Lucchese 16/01/2022 - 13/02/2022</Disparu>
+<Disparu>Alessio Tacchinelli 29/01/2022 - 06/02/2022</Disparu>
+<Disparu>Andreas Juniõr 27/03/2022 - 16/06/2022</Disparu>
+<Disparu>Mogamy Henko Graff 24/05/2022 - 09/12/2022</Disparu>
+<Disparu>Nakahara Akihiro 26/06/2022 - 29/11/2022 puis 02/12/2022 - 17/02/2023</Disparu>
+<Disparu>Karm Lombard 16/07/2022 - 21/03/2023</Disparu>
+<Disparu>Ava Smith 22/07/2022 - 12/08/2022</Disparu>
+<Disparu>Vincenzo "Incantatore" Materazzi 25/07/2022 - 10/09/2022</Disparu>
+<Disparu>Ashe Jotuheim 31/07/2022 - 17/09/2022</Disparu>
+<Disparu>Giulia Bianchi 24/09/2022 - 17/02/2023</Disparu>
+<Disparu>Thomas Shelby  24/10/2022 - 29/11/2022</Disparu>
+<Disparu>James Payne 01/12/2022 - 26/01/2023</Disparu>
+<Disparu>Anelia Limster 28/12/2022 - 01/01/2023</Disparu>
+<Disparu>Giovanni Davide Falcone 30/12/2022 - 08/04/2023</Disparu>
+<Disparu>Aria Kosenberg 06/01/2023 - 05/02/2023</Disparu>
+<Disparu>Mark Legrand ??/??/????  - 27/03/2023</Disparu>
+<Disparu>Éphraïm Waite 25/05/2023 - 10/01/2024</Disparu>
+<Disparu>May Kolvy 18/06/2023 - 19/06/2023</Disparu>
+<Disparu>Nathanaëlle Avraël 25/06/2023 - 19/09/2023</Disparu>
+<Disparu>Dante Santo Almeira 11/08/2023 - 10/01/2024</Disparu>
+<Disparu>Tomás Dias Yoshimura 22/08/2023 - 17/09/2023</Disparu>
+<Disparu>Adam Taban 25/08/2023 - 02/11/2023</Disparu>
+<Disparu>Lee Yudris 13/12/2023 - 10/02/2024</Disparu>
+
+
+
+
+
+---
+
+## Dedsec - Mafia de Langdorf
+
+<Drapeau titre="DedSec" source="/ArchiveLeDernierVerre/img/mafia/DedSec.jpg" />
+
+Statut : <Vert>actif</Vert>
+
+### Leaders
+
+<Actif>Zeta 01/05/2023 - 06/01/2024 puis 21/05/2024 - Actif</Actif>
+<Disparu>Anaïs Fleurys 06/01/2024 - 21/05/2024</Disparu>
+
+### Membres
+
+<Disparu>Keri Sulaeman 01/05/2023 - ??/09/2023</Disparu>
+<Actif>Mortarion Barbarus 01/05/2023 - Actif</Actif>
+<Actif>Scott Malakai 01/05/2023 - 06/08/2023 puis 16/08/2023 - 07/10/2023 puis 11/03/2024 - Actif</Actif>
+<Disparu>Serena Hime 01/05/2023 - 04/11/2023</Disparu>
+<Actif>Anastasia Raskovich 07/05/2023 - Actif</Actif>
+<Disparu>Dante Lapi 10/05/2023 - 05/06/2023</Disparu>
+<Disparu>Miguel Garcia 16/05/2023 - 22/08/2023</Disparu>
+<Disparu>Ayuna Argano 20/05/2023 - 09/09/2023</Disparu>
+<Disparu>Yae Nishida 15/06/2023 - 14/10/2023</Disparu>
+<Disparu>Anaïs Fleurys ??/??/???? - 06/01/2024</Disparu>
+<Disparu>Tae "Crypto" Joon Park 16/08/2023 - 10/09/2023</Disparu>
+<Actif>Mila Shatten ??/??/???? - Actif</Actif>
+<Actif>Lizzie Naewynn 23/01/2024 - Actif</Actif>
+
+
+
+
+---
+
+## Mafia d'ex-URSS
+
+<Drapeau titre="Drapeau d'ex-URSS" source="/ArchiveLeDernierVerre/img/mafia/exURSS.png" />
+
+Statut : <Vert>actif</Vert>
+
+### Leader
+
+<Actif>Oka 09/02/2022 - Actif</Actif>
+
+### Membres
+
+<Disparu>Havanna Kozlowski 12/05/2022 - 17/09/2022</Disparu>
+<Disparu>Yuna Armagnac 26/06/2022 - 02/07/2022</Disparu>
+<Disparu>Nikita Sokolov 18/12/2022 - 06/01/2023</Disparu>
+<Actif>Wytrzymałość Colonel 01/03/2023 - Actif</Actif>
+
+
+
+
+---
+
+## Garduña - Mafia espagnole
+
+<Drapeau titre="Drapeau d'Espagne" source="/ArchiveLeDernierVerre/img/mafia/Espagne.jpg" />
+
+Statut : <Vert>LIBRE</Vert>
+
+### Leaders
+
+<Disparu>Derek Reyes 08/02/2022 - 02/03/2022</Disparu>
+<Disparu>Helena Dias 24/03/2022 - 04/05/2022</Disparu>
+<Disparu>Akira Sett 09/06/2022 - 28/06/2022</Disparu>
+<Disparu>Zeta 04/12/2022 - 01/05/2023</Disparu>
+<Disparu>Miguel Dominguez 24/01/2024 - 06/03/2024</Disparu>
+
+### Membres
+
+<Disparu>Rafaël Rodriguez ??/??/2022 - 17/09/2022 puis 04/12/2022 - 17/02/2023</Disparu>
+<Disparu>Gato Fernando 01/02/2023 - 16/02/2023</Disparu>
+<Disparu>Liam Zakalion 05/02/2023 - 09/04/2023</Disparu>
+<Disparu>Mortarion Barbarus 07/03/2023 - 01/05/2023</Disparu>
+<Disparu>Keri Sulaeman 04/04/2023 - 01/05/2023</Disparu>
+<Disparu>Scott Malakai ??/??/2023 - 01/05/2023</Disparu>
+<Disparu>Serena Hime ??/??/2023 - 01/05/2023</Disparu>
+
+
+
+
+---
+
+## Sluagh - Mafia Irlandaise
+
+<Drapeau titre="Drapeau d'Irlande" source="/ArchiveLeDernierVerre/img/mafia/Irlande.jpg" />
+
+Statut : <Vert>actif</Vert>
+
+### Leaders
+
+<Disparu>Talos Lainn 05/07/2023 - 05/11/2022</Disparu>
+<Disparu>Frank "Atlas" Wynand 10/08/2023 - 21/11/2023</Disparu>
+
+### Membres
+
+
+
+
+
+---
+
+## la Triade - Mafia chinoise
+
+<Drapeau titre="Drapeau de Chine" source="/ArchiveLeDernierVerre/img/mafia/Chine.jpg" />
+
+Statut : <Vert>LIBRE</Vert>
+
+### Leaders
+
+<Disparu>Cassandra Miz 12/02/2022 - 09/03/2022</Disparu>
+<Disparu>Tao Zhang 02/12/2022 - 23/01/2022</Disparu>
+<Disparu>Xiu Ming 28/04/2023 - 05/06/2023</Disparu>
+<Actif>Tao Xianbei 23/04/2022 - 12/07/2022 puis 19/03/2024 - Actif</Actif>
+
+### Membres
+
+<Disparu>Jiao Lin-wa 10/02/2022 - 27/02/2022</Disparu>
+<Disparu>Shinon Hasenkho 06/05/2022 -  17/09/2022</Disparu>
+<Disparu>Rafaël Rodriguez ??/??/2022 -  ??/??/2022</Disparu>
+<Actif>Li-Jin Yang 31/07/2024 -  Actif</Actif>
+
+
+
+---
+
+## Vaheana - Mafia de Polynésie
+
+<Drapeau titre="Drapeau de Polynésie" source="/ArchiveLeDernierVerre/img/mafia/Polynesie.png" />
+
+Statut : <Vert>actif</Vert>
+
+### Leaders
+
+<Actif>Ahu'ura Utia 31/05/2023 - Actif</Actif>
+
+### Membres
+
+<Disparu>Lunia "Luna" Moonstone 05/06/2023 - 13/07/2023</Disparu>
+<Disparu>Gaolang "Gawon" Wongsawat 21/01/2024 - 13/03/2024</Disparu>
+<Actif>Xavier Lefèvre 16/04/2024 - Actif</Actif>
+
+
+
+
+---
+
+## Yakuza - Mafia japonaise
+
+<Drapeau titre="Drapeau du Japon" source="/ArchiveLeDernierVerre/img/mafia/Japon.png" />
+
+Statut : <Rouge>Eradiquée</Rouge>
+
+### Leaders
+
+<Disparu>Kamino Rei 08/01/2022 - 25/02/2022</Disparu>
+<Disparu>Yujiro Hanamya 14/05/2022 - 12/07/2022</Disparu>
+<Disparu>Chiaki Lang 10/10/2022 - 29/11/2022 puis 06/12/2022 - 01/03/2023</Disparu>
+<Disparu>Yoshio Inagawa-kai 30/11/2022 - 06/12/2022</Disparu>
+<Actif>Owen Cox 02/05/2023 - 02/05/2023</Actif>
+
+### Membres
+
+<Disparu>Hanaé Kocho 15/01/2022 - 25/01/2022</Disparu>
+<Disparu>Ippo Jinn 27/02/2022 - 27/02/2022</Disparu>
+<Disparu>Rei Miyamoto 02/03/2022 - 26/03/2022</Disparu>
+<Disparu>Anagaki Takeshi 09/05/2022 - 02/07/2022</Disparu>
+<Disparu>Kiyomasa Seijaku 05/10/2022 - 26/03/2023</Disparu>
+<Disparu>Sky Haruo 21/10/2022 - 09/12/2022</Disparu>
+<Disparu>Bellamy Bi Yun 13/11/2022 - 08/01/2023</Disparu>
+<Disparu>Meku Tuza 07/12/2022 - 27/01/2023</Disparu>
+<Disparu>Shu Kemuri 29/12/2022 - 28/01/2023</Disparu>
+<Disparu>Guinevere 04/05/2023 - 02/05/2023</Disparu>
+<Disparu>Axel Zigert 12/05/2023 - 26/06/2023</Disparu>
+<Disparu>Akiko Masaka 04/06/2023 - 04/11/2023</Disparu>
+<Disparu>Sung "Zikade" Hwa-Sun 05/06/2023 - 10/02/2024</Disparu>
+<Disparu>Daichi Kawakami 06/06/2023 - 09/12/2023</Disparu>
+<Disparu>Onibi Law 29/11/2023 - 19/12/2023</Disparu>
+<Disparu>Nerissa Seibels 11/02/2024 - 02/05/2023</Disparu>
+<Disparu>Harem "Daemon" Kush 13/02/2024 - 24/02/2024</Disparu>
+<Disparu>Ace Kenton 03/02/2024 - 26/02/2024 puis 14/03/2024 - 02/05/2023</Disparu>
+
+
+
+
+---
+
+## Culte de Lunaelle
+
+<Drapeau titre="Culte de Lunaelle" source="/ArchiveLeDernierVerre/img/mafia/culte.png" />
+
+Statut : <Vert>actif</Vert>
+
+### Leader
+
+<Actif>Amy-Lee Pudicitia 11/01/2024 - Actif</Actif>
+
+### Membres
+
+<Actif>Calliope 11/01/2024 - Actif</Actif>
+<Actif>Sera 11/01/2024 - Actif</Actif>
+
+
+
+
+---
+
+## Hell Hounds MC - Groupe criminel
+
+<Drapeau titre="Hell Hounds MC" source="/ArchiveLeDernierVerre/img/mafia/HellHounds.jpg" />
+
+Statut : <Rouge>disparu</Rouge>
+
+### Leader
+
+<Disparu>Volodymyr “Vlad” Soukha Tchevski 24/06/2023 - 01/07/2024</Disparu>
+
+### Membres
+
+<Disparu>Alya Baker 12/08/2022 - 20/05/2024</Disparu>
+<Disparu>Père Lysandro Graciá Rosário 22/08/2022 - 14/10/2023</Disparu>
+<Disparu>Lucya Müller 29/11/2023 - 01/07/2024</Disparu>
+<Disparu>Enguerrand Lagarde ??/??/???? - 09/05/2024</Disparu>
+<Disparu>Hyldegarde Hanz 07/01/2024 - 07/04/2024</Disparu>
+
+
+
+
+---
+
+## Lotus rouge - Groupe criminel
+
+<Drapeau titre="Lotus rouge" source="/ArchiveLeDernierVerre/img/mafia/LotusRouge.jpg" />
+
+Statut : <Rouge>disparu</Rouge>
+
+### Leader
+
+<Disparu>Zack 13/04/2022 - 06/07/2023</Disparu>
+
+### Membres
+
+<Disparu>Eleanor Vignis 08/02/2022 - 06/07/2023</Disparu>
+
+
+
+
+---
+
+## Monkey family - Groupe criminel
+
+<Drapeau titre="Monkey family" source="/ArchiveLeDernierVerre/img/mafia/MonkeyFamily.jpg" />
+
+Statut : <Rouge>disparu</Rouge>
+
+### Leader
+
+<Actif>Cheetos 30/08/2022 - 26/11/2023</Actif>
+<Actif>Mouss "le sage" Romanée-Conti 19/09/2022 - 02/11/2023</Actif>
+
+### Membres
+
+
+
+
+---
+
+## Sanchez Ben Khalif - Groupe criminel
+
+<Drapeau titre="Sanchez Ben Khalif" source="/ArchiveLeDernierVerre/img/mafia/SBK.png" />
+
+Statut : <Rouge>purgés</Rouge>
+
+### Leader
+
+<Disparu>Farah Sanchez Ben Khalif 24/10/2022 - 30/11/2022</Disparu>
+
+### Membres
+
+<Disparu>Jinx Moore - 01/11/2022 - 30/11/2022</Disparu>
+<Disparu>Kandy Fujiwaro 13/11/2022 - 30/11/2022</Disparu>
+
+
+
+
+---
+
+## Task Force 999 - Groupe gouvernemental
+
+<Drapeau titre="Task Force 999" source="/ArchiveLeDernierVerre/img/mafia/TaskForce999.png" />
+
+Statut : <Vert>actif</Vert>
+
+### Leader
+
+<Actif>Skygge 14/04/2024 - Actif</Actif>
+
+### Membres
+
+<Actif>Chris Redkite 03/04/2024 - Actif</Actif>
+<Actif>Aria Molniya 14/04/2024 - Actif</Actif>
+
+
+
+
+---
+
+## White Mask - Groupe criminel
+
+<Drapeau titre="White Mask" source="/ArchiveLeDernierVerre/img/mafia/WhiteMask.jpg" />
+
+Statut : <Rouge>purgés</Rouge>
+
+### Leader
+
+<Disparu>Blaz 10/01/2022 - 10/03/2022</Disparu>
+<Disparu>Ogun "Le baron joueur" L'inglesou 16/03/2022 - 24/11/2022</Disparu>
+
+### Membres
+
+<Disparu>Kruz Poly 08/02/2022 - 10/02/2022</Disparu>
+<Disparu>Kryster Karl 18/03/2022 - 01/04/2022</Disparu>
+<Disparu>Alex 06/06/2022 - 16/06/2022</Disparu>
+<Disparu>John Isaac 06/06/2022 - 01/07/2022</Disparu>
+<Disparu>Erna Face de Pierre 16/03/2022 - 24/11/2022</Disparu>
+
+
+
+
+---
+
+## Yardies - Groupe criminel / Mafia Jamaïcaine
+
+<Drapeau titre="Yardies" source="/ArchiveLeDernierVerre/img/mafia/Yardies.png" />
+
+<Rouge>Disparu</Rouge>
+
+### Leader
+
+<Disparu>Darel "Dreadking" Cleland 06/12/2023 - 21/06/2022</Disparu>
+
+### Membres
+
+<Disparu>Gabin Carocias 30/12/2023 - 13/03/2024</Disparu>
+<Disparu>Lloyd Fletcher 29/12/2023 - 13/04/2024</Disparu>
+<Disparu>Cleland "Tonton" Vernon 04/01/2024 - 11/04/2024</Disparu>

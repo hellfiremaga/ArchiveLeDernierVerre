@@ -1,0 +1,99 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+#img_archive {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:250px;
+  object-fit:cover;
+  border:1px solid #000;
+}
+
+.alignCenter {
+  text-align:center;
+}
+
+.markdown-content {
+  padding:20px 20%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+code {
+  white-space : pre-wrap !important;
+}
+
+/* Pour les archives de RP (boite de dialogue) */
+.dialogue {
+  color:black;
+  background-color: #EEE;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 8px 8px 8px 8px;
+  margin: 5px;
+  box-shadow: 5px 5px 3px black;
+}
+
+[data-theme='dark']{
+  .dialogue {
+    border: 2px solid white;
+    background-color: #222;
+    color:white;
+  }
+}
+
+/* Pour les archives de RP (avatar) */
+.avatar_dialogue img {
+  display: block;
+  margin: auto;
+  padding: 1px;
+  height: 90px;
+  width: 70px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.nom_dialogue {
+  color: #303030;
+  font-size: large;
+}
+
+[data-theme='dark']{
+  .nom_dialogue {
+    color: silver;
+  }
+}
+
+.heure_dialogue {
+  color: grey;
+  font-size: small;
+}
