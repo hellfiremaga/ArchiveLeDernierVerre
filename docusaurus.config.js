@@ -106,11 +106,11 @@ const config = {
             position: 'left',
             label: '==> Les Erika les plus chaudes de ta région <==',
           },*/
-          {
+          /*{
             href: 'https://discord.gg/HDjKc8U8qn',
             label: 'Rejoignez nous !',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
@@ -136,10 +136,10 @@ const config = {
           {
             title: 'Communauté',
             items: [
-              {
+              /*{
                 label: 'Discord',
                 href: 'https://discord.gg/HDjKc8U8qn',
-              },
+              },*/
               {
                 label: 'Twitch',
                 href: 'https://www.twitch.tv/hellfiremaga',
